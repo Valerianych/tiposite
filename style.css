@@ -389,6 +389,7 @@ a {
     align-items: center;
     height: 100%;
     min-height: 40px;
+    flex-grow: 3;
 }
 
 .tabl
@@ -400,4 +401,218 @@ a {
     border-radius: 8px;
     background-color: bisque;
     min-height: 40px;
+    display: flex;
+    justify-content: space-around;
 }
+.search::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto 0;
+      width: 25px;
+      height: 25px;
+      background: url('https://cdn0.iconfinder.com/data/icons/ThemeShock-credit-cards-icons/64/mastercard.png') no-repeat;
+      background-size: cover;
+}
+.search:focus
+{
+    border: none;
+    outline: none;
+}
+.search::placeholder
+{
+    font-size: 1em;
+    color:rgb(192, 172, 147)
+}
+* {box-sizing: border-box;}
+form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+}
+input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #1a1717;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+input:focus {
+  width: 300px;
+}
+button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
+button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #1a1717;
+}
+.text
+{
+    font-family: 'Graphik LCG';
+    margin-top: 100px;
+    padding-left: 100px;
+    margin-left: 90px;
+    text-align: left;
+    color:rgb(255, 228, 196);
+}
+.taxi
+{
+    font-family: 'Graphik LCG';
+    margin-right: 500px;
+    text-align: right;
+    margin-top: -30px;
+    color:rgb(255, 228, 196);
+    margin-bottom: 20px;
+}
+img.rot {
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 1s linear 0s normal none infinite running rot;
+    width: 100px;
+  }
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+  @-webkit-keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.ta
+{
+    width: 80vw;
+    margin: 0 auto;
+    font-family: 'Graphik LCG';
+    border: 2px solid rgb(255, 228, 196);
+    border-radius: 8px;
+    background-color: bisque;
+    min-height: 40px;
+}
+.vac
+{
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    padding-left: 130px;
+}
+.a
+{
+   
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.b{
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+}
+.g
+{
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    padding-left: 130px;
+    color: bisque;
+} 
+.rep
+{
+    display: inline-block;
+    width: 400px;
+    min-height: 500px;
+    border: 5px solid rgb(255, 228, 196);
+    margin-right: 46px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    position: relative;
+    box-shadow: 0 0 30px rgba(194, 194, 194, 0.5);
+}
+.v11
+{
+
+    background-image: url("kartinki/v11.png");
+    background-repeat: no-repeat;
+    background-color: bisque;
+}
+.v11:hover
+{
+    background-image: url("kartinki/v111.png");
+}
+.rep1
+{
+    display: inline-block;
+    width: 450px;
+    min-height: 330px;
+    border: 5px solid rgb(255, 228, 196);
+    margin-right: 46px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    position: relative;
+    box-shadow: 0 0 30px rgba(194, 194, 194, 0.5);
+}
+.diver22
+{
+    position: relative;
+    font-size: 1.5em;
+    top: 165px;
+    
+}
+.lister
+{
+    list-style: none;
+}
+.v22
+{
+
+    background-image: url("kartinki/v22.png");
+    background-repeat: no-repeat;
+    background-color: bisque;
+}
+.v22:hover
+{
+    background-image: url("kartinki/v222.png");
+}
+.v33
+{
+
+    background-image: url("kartinki/v33.png");
+    background-repeat: no-repeat;
+    background-color: bisque;
+}
+.v33:hover
+{
+    background-image: url("kartinki/v333.png");
+}
+.v44
+{
+
+    background-image: url("kartinki/v44.png");
+    background-repeat: no-repeat;
+    background-color: bisque;
+}
+.v44:hover
+{
+    background-image: url("kartinki/v444.png");
+}
+
